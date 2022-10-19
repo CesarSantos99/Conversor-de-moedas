@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 18px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header {
+    background-color: #1B83E2;
+    height: 66px;
+}
+
+.titulo {
+    font-weight: 400;
+    font-size: 24px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 22px;
+}
+
+main {
+    padding:24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+}
+
+select {
+    display: block;
+    width: 100%;
+    height: 48px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;     /* tira as setinhas */
+    padding-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 310px;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 4px;
+    padding-left: 16px;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    background: #1B83E2;
+    border-radius: 25px;
+    border: none;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    margin-top: 36px;
+}
+
+.section-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.section-paragrafo-um {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.section-paragrafo-dois {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+.seta {
+    margin: 14px auto;
+    display: block;
+}
